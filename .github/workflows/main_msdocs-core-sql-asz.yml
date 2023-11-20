@@ -22,7 +22,7 @@ jobs:
           dotnet-version: '7.x'
           include-prerelease: true
 
-        name: PostgreSQL
+      - name: PostgreSQL
         run: dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
 
       - name: Build with dotnet
